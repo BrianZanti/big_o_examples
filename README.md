@@ -18,3 +18,9 @@ Given an array of numbers, check if there are any duplicates
 Analyze the code for example_1 (.js or .rb whichever you prefer). Start by running the code for different test cases and understanding the algorithm. Then, answer the Analysis Questions above.
 
 When you are ready, repeat the process for example_2.
+
+## THE Question
+
+After you have completed the exercise for both examples, answer this question:
+
+**Which algorithm is better?**
