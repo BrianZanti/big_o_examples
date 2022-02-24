@@ -1,14 +1,13 @@
 var containsDuplicate = function(nums) {
-  for (let i = 0; i < nums.length; i++) {
-    for (let j = 0; j < nums.length; j++){
-      let num1 = nums[i]
-      let num2 = nums[j]
-      if (num1 === num2 && i !== j) {
-        return true;
+  duplicates_found = false;
+  nums.forEach((num_1, index_1) => {
+    nums.forEach((num_2, index_2) => {
+      if (num_1 === num_2 && index_1 !== index_2) {
+        duplicates_found = true;
       }
-    }
-  }
-  return false;
+    })
+  })
+  return duplicates_found;
 };
 
 let test_case_1 = [1,2,3]
