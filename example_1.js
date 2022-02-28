@@ -4,8 +4,12 @@ var containsDuplicate = function(nums) {
     nums.forEach((num_2, index_2) => {
       if (num_1 === num_2 && index_1 !== index_2) {
         duplicates_found = true;
+        return;
       }
     })
+    if (duplicates_found){
+      return;
+    };
   })
   return duplicates_found;
 };
