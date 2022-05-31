@@ -8,7 +8,7 @@ Given an array of numbers, check if there are any duplicates
 
 ## Analysis Questions
 
-* For the input `test_case_1`, how many times does the `containsDuplicate` method make the comparison between `num_1` and `num_2`? What about for `test_case_2`?
+* For the input `test_case_1`, how many times does the `containsDuplicate` method use a comparison operator (`>=`, `==`, `===`, etc.)?
 * Let's say the algorithm is given an input array with a million numbers. What is the *least* number of comparisons the algorithm could make between `num_1` and `num_2`? What would have to be true about that array?
 * If the input array has `n` elements, what is the *most* number of comparisons the method would make as a **function** of `n`?
 * Does this algorithm create any new data structures that are roughly the same size as the input array? For example another array or Hash/Object?
